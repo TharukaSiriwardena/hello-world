@@ -1,0 +1,29 @@
+$ cd ~/Desktop/
+
+$ mkdir gitPracticalProject/
+
+$ cd gitPracticalProject/
+
+$ echo "# hello-world" >> README.md
+
+$ git status
+
+$ git init
+
+$ git config --global http.proxy 192.168.222.1:3128
+
+$ git config --global user.name TharukaSiriwardena
+
+$ git config --global user.email tharukasiriwardena27@gmail.com
+
+$ git add README.md
+
+git status
+
+$ git commit -m "first commit"
+
+$ git remote add origin https://github.com/TharukaSiriwardena/hello-world.git
+
+$ git push -u origin master
+
+/* ==========log in to your account ========= */
