@@ -1,4 +1,4 @@
-/* First you have to goto Credential Manager --> windows Credential --> General Credential --> and remove the github Credential
+# /* First you have to goto Credential Manager --> windows Credential --> General Credential --> and remove the github Credential
 
 $ cd ~/Desktop/
 
@@ -26,29 +26,29 @@ $ git remote add origin https://github.com/TharukaSiriwardena/hello-world.git
 
 $ git push -u origin master
 
-/* ==========log in to your account ========= */
+# /* ==========log in to your account ========= */
 
-/* now check the git repository to updated or not */
+# /* now check the git repository to updated or not */
 
-/* adding a new branch with its tasks */
+# /* adding a new branch with its tasks */
 $ git checkout -b firstbranch
 
 $ git branch
 
-/* push a branch to github */
+# /* push a branch to github */
 $ git push origin firstbranch
 
 
-/* change the branch */
+# /* change the branch */
 $ git checkout master
 $ git checkout firstbranch
 
 
-/* create pull request */
+# /* create pull request */
 $ git pull origin master
 
 
-/* undoing changes */
+# /* undoing changes */
 $ git revert 3cee036 <hash code>
 
 
